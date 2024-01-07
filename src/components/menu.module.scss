@@ -1,0 +1,22 @@
+@import "../styles/variable.module.scss";
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    margin-block: 50px;
+
+    span {
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 1.2;
+        color: $color-4;
+        font-weight: 500;
+    }
+
+    &.active {
+        font-size: 16px;
+        color: green;
+    }
+}

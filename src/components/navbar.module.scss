@@ -1,0 +1,32 @@
+@import "../styles//variable.module.scss";
+
+.container {
+    padding: 48px;
+    gap: 80px;
+    overflow: hidden;
+    flex-direction: column;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 340px;
+    background: $background;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 125px;
+        height: 35px;
+    }
+
+    span {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 1.2;
+        color: $color-1;
+        font-weight: 400;
+    }
+}
